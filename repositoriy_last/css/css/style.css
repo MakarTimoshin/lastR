@@ -1,0 +1,81 @@
+body {
+    background: #000 url(/img/image.jpg);
+    color: #000;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    font-family: arial;
+    margin: 0;
+}
+
+.card {
+    width: 32%;
+    margin-left: 1%;
+}
+
+.head ul {
+    DISPLAY: flex;
+    /* height: 300px; */
+    margin: 0px auto;
+    background: white;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.wi {
+    max-width: 700px;
+    /* height: 300px; */
+    border: 2px solid #FFFF;
+    -webkit-box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 8px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin: auto;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    background: white;
+}
+
+.head ul li {
+    text-decoration: unset;
+    list-style-type: none;
+}
+
+.head ul li a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.head.wi {
+    max-width: 100%;
+    padding: 0;
+}
+
+header {
+    POSITION: fixed;
+    WIDTH: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1px 79px;
+}
+
+form input {
+    margin: 5px 0;
+}
+
+.foto img {
+    width: 32%;
+    max-height: 138px;
+    cursor: pointer;
+    object-fit: cover;
+}
